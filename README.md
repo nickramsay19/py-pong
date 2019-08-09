@@ -1,7 +1,15 @@
 # Pong - Made with Python3 & Pygame
 > Created by Nicholas Ramsay
 
-### player.py
+## Features
+* Velocity based movement for players and the ball/puck
+* Realistic bounce/hit-reg physics
+
+## To do
+* Move puck variables(px,py,pxv,etc) into a Puck class
+* Move player movements and hit-reg into class methods of Player
+
+## player.py
 ```python
 class Player:
     def __init__(self):
@@ -10,7 +18,7 @@ class Player:
         self.Points = 0
 ```
 
-### game.py
+## game.py
 ```python
 import pygame
 
@@ -45,7 +53,7 @@ class Game:
         
 ```
 
-### main.py
+## main.py
 ```python
 import pygame
 import random
