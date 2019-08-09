@@ -175,8 +175,6 @@ while game.Running:
     px += int(pxv)
     py += int(pyv) 
 
-    
-    # draw players
     game.drawPlayers(A, B)
     game.drawPuck(px,py)
     game.drawScores(screen, A, B)
