@@ -1,6 +1,8 @@
 # Pong - Made with Python3 & Pygame
 > Created by Nicholas Ramsay
 
+![Image of the game](./screenshot.png "Image of the game")
+
 ## Features
 * Velocity based movement for players and the ball/puck
 * Realistic bounce/hit-reg physics
